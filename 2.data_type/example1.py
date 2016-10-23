@@ -1,5 +1,8 @@
 
-
+'''
+    Data Type
+    - String, List, SET, TUPLE, Dictionary
+'''
 #### String
 str = 'python'
 print(str[0:1])
