@@ -1,0 +1,11 @@
+BEGIN TRANSACTION;
+CREATE TABLE AgeBook(Name text, Age integer);
+INSERT INTO "AgeBook" VALUES('Tome',20);
+INSERT INTO "AgeBook" VALUES('DSP',30);
+CREATE TABLE PhoneBook(Name text, PhoneNumber text);
+INSERT INTO "PhoneBook" VALUES('name','010-1111-2222');
+INSERT INTO "PhoneBook" VALUES('Tome','011-1111-2345');
+INSERT INTO "PhoneBook" VALUES('DSP','012-4444-5555');
+CREATE TABLE Test(Pnt point);
+INSERT INTO "Test" VALUES('4.000000:-3.200000');
+COMMIT;
